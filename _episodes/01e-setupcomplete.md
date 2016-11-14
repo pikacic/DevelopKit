@@ -43,11 +43,6 @@ export CCACHE_DIR=$HOME/.ccache
 export CMAKEFLAGS=-DCMAKE_USE_CCACHE=ON
 ```
 
-If you installed CCache from source locally to $HOME/.local, then you'll need the local bin in your path, too:
-
-```bash
-export PATH=$HOME/.local/bin:$PATH
-```
 
 ### Debug builds
 
